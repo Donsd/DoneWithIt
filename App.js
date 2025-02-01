@@ -12,15 +12,17 @@ export default function App() {
         flex: 1,
         flexDirection: "row",
         justifyContent: "center", // main axis
-      alignItems: "center", // cross axis
-        alignContent:"center", //align entire content
-        flexWrap:"wrap"
+        alignItems: "center", // cross axis
+      
         
       }}>
       <View style={{
         backgroundColor: "gold",
         width: 100,
-        height: 300
+        height: 100,
+        top: 20,
+        right: 20,
+        position: "absolute"
       }} />
       <View style={{
         backgroundColor: "tomato",
@@ -32,16 +34,7 @@ export default function App() {
         width: 100,
         height: 100
       }} />
-      <View style={{
-        backgroundColor: "grey",
-        width: 100,
-        height: 100
-      }} />
-      <View style={{
-        backgroundColor: "green",
-        width: 100,
-        height: 100
-      }} />
+      
       
     </View>
   );
